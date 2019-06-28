@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>add a toilet</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="map_canvas"></div>
+  <!-- FORM INPUTS -->
+  <ion-item>
+    <ion-label>Toilet Name</ion-label>
+    <ion-input type="text" placeholder="Where is this toilet?" [(ngModel)]="this.name"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Building Type</ion-label>
+    <ion-select>
+      <ion-select-option>Public Toilet</ion-select-option>
+      <ion-select-option>Public Building</ion-select-option>
+      <ion-select-option>Bar/Restaurant</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Rating</ion-label>
+    <ion-select>
+      <ion-select-option>poor</ion-select-option>
+      <ion-select-option>okay</ion-select-option>
+      <ion-select-option>average</ion-select-option>
+      <ion-select-option>good</ion-select-option>
+      <ion-select-option>great</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Review</ion-label>
+    <ion-input type="text" placeholder="What are your thoughts?"></ion-input>
+  </ion-item>
+
+  <!-- SUBMIT -->
+  <ion-button id="submit" color="secondary" expand="full" size="large" (click)="submit()">
+    submit
+  </ion-button>
+</ion-content>

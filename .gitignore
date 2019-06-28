@@ -1,0 +1,20 @@
+package-lock.json
+node_modules
+node_modules/
+www
+www/
+.idea
+.idea/
+.temp
+.sass-cache
+<%= appPath %>/bower_components
+coverage
+platforms
+platforms/
+plugins
+plugins/
+*.swp
+*.swo
+*.log
+*.DS_Store
+

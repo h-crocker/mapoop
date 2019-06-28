@@ -1,0 +1,7 @@
+{
+  "name": "mapoop",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
