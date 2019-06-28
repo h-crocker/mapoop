@@ -8,4 +8,4 @@ The front-end is powered by Ionic, Cordova and Google Maps. The database is powe
 
 ### Screenshots
 
-![iOS Screenshot](/home/hcrocker/Development/WebStormProjects/mapoop/assets/IMG_E0010.JPG)
+![iOS Screenshot](./assets/IMG_E0010.JPG)
